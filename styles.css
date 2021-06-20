@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: #e5e5e5;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 163px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  text-align: center;
+  padding: 0.8rem 0.5rem;
+  color: #fff;
+}
+
+.item, .item1, .item2, .item3 {
+  width: 163px;
+  height: 66px;
+  border: 1px solid #eee;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: #f7f6f7;
+  padding: 0.8rem 1rem;
+  color: #828282;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder, .placeholder1, .placeholder2, .placeholder3 {
+  width: 150px;
+  height: 66px;
+}
+
+.start {
+  background: orange;
+}
+
+.progress {
+  background: blue;
+}
+
+.done {
+  background: yellow;
+  color: black
+}
+
+.hold {
+  background: #8ed7ed;
+  color: white;
+}
+
+.hide {
+  display: none
+}
+
+.hovered {
+  border: 2px solid #8ed7ed;
+}
